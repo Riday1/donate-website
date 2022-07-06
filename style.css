@@ -118,6 +118,8 @@
  .donate-plan {
      width: 100%;
      height: 100vh;
+     margin-bottom: 20px;
+     ;
  }
 
  .donate-plan-top-part {
@@ -132,16 +134,12 @@
      padding-bottom: 30px;
 
 
-
-     ;
-
  }
 
  .donate-plan-top-part h1 {
      font-size: 60px;
-     ;
      text-align: center;
-     ;
+
  }
 
  .plans {
@@ -149,18 +147,33 @@
      justify-content: space-evenly;
  }
 
- .plan1 {
+ .plan-com {
      height: 350px;
      width: 356px;
-     background-color: #EDF5F6;
+
      padding: 20px 40px;
      border-radius: 7px;
 
  }
 
+ #plan-1 {
+     background-color: #EDF5F6;
+
+ }
+
+ #plan-2 {
+     background-color: #FFEEEE;
+ }
+
+ #plan-3 {
+     background: #FFF4D6;
+     ;
+ }
+
+
  .plan-description h3 {
      font-size: 30px;
-     ;
+
  }
 
  .plan-description p {
@@ -169,13 +182,31 @@
      color: #707070;
      line-height: 35px;
 
-     ;
-     ;
-     ;
+
  }
 
- .images img {
+ .plan-icon img {
      padding-top: 30px;
      width: 80px;
      height: 80px;
+ }
+
+ .volunteer-secion {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+
+     ;
+ }
+
+ .volunteer-left-sdie {
+     width: 50%;
+ }
+
+ ..volunteer-left-sdie img {
+     width: 70%;
+ }
+
+ .volunteer-right-side {
+     width: 50%;
  }
